@@ -1,0 +1,45 @@
+.container {
+  width: auto;
+  height: 100vh;
+}
+
+.top-menu {
+  height: 40px;
+  background: black;
+}
+
+.content {
+  height: calc(100% - 40px);
+  background-color: #424242;
+}
+
+.item-container {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.file-item {
+  width: 120px;
+  height: 120px;
+  text-align: center;
+  border: 1px solid;
+  overflow-wrap: break-word;
+  padding: 5px;
+  margin: 10px;
+  font-size: 12px;
+  border-radius: 5px;
+  background-color: #b9b9b9;
+}
+
+.files-icon {
+  height: 80px;
+}
+
+.d-flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

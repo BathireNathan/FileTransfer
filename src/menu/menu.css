@@ -1,0 +1,19 @@
+.sidenavbar{
+    background: #eee;
+    width: 200px;
+    position: fixed;
+    height: 100vh;
+    transition: width 1s;
+}
+
+.min{
+    width: 40px;
+}
+
+.minify-btn{
+    text-align: center;
+    padding: 6px;
+    margin: 5px;
+    position: relative;
+    top: 94%;
+}
